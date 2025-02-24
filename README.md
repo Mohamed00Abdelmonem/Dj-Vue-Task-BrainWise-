@@ -91,7 +91,6 @@ Copy `.env.example` to `.env` and configure the necessary settings (e.g., databa
 |----------------------------------|--------------|----------------------------------------------------------------------|
 | Backend Models                   | Completed    | All models implemented with required fields.                        |
 | Validations & Business Logic     | Completed    | Email, mobile validation; auto-calculations for counts and durations.|
-| Role-Based Access Control        | Completed    | Admin, Manager, Employee roles defined.                             |
 | RESTful API                      | Completed    | CRUD operations for all entities.                                   |
 | Frontend UI                      | Completed    | Includes login, company, department, and employee management pages. |
 | Authentication                   | Completed    | Secure login mechanism integrated.                                  |
@@ -104,12 +103,6 @@ Copy `.env.example` to `.env` and configure the necessary settings (e.g., databa
 ### Authentication
 - **JWT-Based Token Authentication**: Secure API endpoints by requiring valid tokens for access.
 - **Token Expiry**: Tokens expire after a predefined time to enhance security.
-
-### Authorization
-- **Role-Based Access Control (RBAC)**: 
-  - Admin: Full access to all features.
-  - Manager: Can manage companies, departments, and employees but cannot modify system settings.
-  - Employee: Can only view their own details and update personal information.
 
 ### Data Protection
 - Sensitive information (e.g., passwords) is stored securely using hashing algorithms.
