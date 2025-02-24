@@ -156,10 +156,12 @@ http://localhost:8000/api/
 ---
 #### Images 
 
-![](image_readme/Login.png)
-![](image_readme/dashbord.png)
-![](image_readme/emplyees.png)
-![](image_readme/departments.png)
-![](image_readme/companies.png)
+#### Images
 
-
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="image_readme/Login.png" alt="Login" style="width: 250px; height: auto;" />
+  <img src="image_readme/dashbord.png" alt="Dashboard" style="width: 250px; height: auto;" />
+  <img src="image_readme/emplyees.png" alt="Employees" style="width: 250px; height: auto;" />
+  <img src="image_readme/departments.png" alt="Departments" style="width: 250px; height: auto;" />
+  <img src="image_readme/companies.png" alt="Companies" style="width: 250px; height: auto;" />
+</div>
